@@ -1,0 +1,67 @@
+#wrap /*to make a frame for the content of the article so the article won't go anywhere */
+{
+    margin-left: 160px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+	width: 800px;
+	background: #fff;
+	padding: 10px;
+}
+#contentheader /*for the frame of the title, recommended to use div*/
+{
+    background-color: gainsboro;
+    color: black;
+    height: 100px;
+    width: 100%;
+    }
+#contentheader h1 /*for the font of the title, inside the content header*/
+{ 
+    font-size: 50px;
+    letter-spacing: -6px;
+    padding: 17px 0 0 10px;
+    color: indianred;
+}
+#content /*where the article is written*/
+{
+    padding: 0 20px 20px 0;
+    font-size: 20px;
+}
+.rightlayout a /*for the recomendation to read next, recomended for image, use it before using wrap*/
+{
+    float: right;
+    width: 400px;
+    height: 300px;
+    text-align: justify;
+    padding-top: 5px;
+    margin-top: 30px;
+    margin-right: 100px;
+    clear: both;
+  
+}
+.rightlayout a:hover /*the image can change color when the cursor pointed at the image*/
+{
+    float: right;
+    width: 400px;
+    height: 300px;
+    text-align: justify;
+    padding-top: 5px;
+    margin-top: 30px;
+    margin-right: 100px;
+    clear: both;
+    opacity: 30%;
+  
+}
+.righttitle h2 a /*for hyperlink of .rightlayout a, use it after using .rightlayout a*/
+{
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    float: right;
+    width: 400px;
+    height: 50px;
+    background-color: gainsboro;
+    clear: both;
+    margin-right: 100px;
+ 
+}
