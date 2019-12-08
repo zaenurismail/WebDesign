@@ -1,3 +1,11 @@
+.header1 h1{ 
+	width: 100%;
+	height: 150px;
+	color: white;
+	line-height: 150px;
+	background-color: purple;
+}
+
 #wrap { /*background part, made a frame for the whole content*/
     margin-left: 20px;
     margin-right: 20px;
@@ -15,9 +23,8 @@ background-color:indianred;
 .contentheader h1 { /*changes the font located in the header part of the content*/
     font-family:sans-serif;
     color: black;
-    padding-top: 10px;
-    padding-left: 20px;
     padding-bottom: 10px;
+    margin-top: 10px;
 }
 
 #contentblock { /*changes the row of the content*/
@@ -30,7 +37,7 @@ background-color:gainsboro;
     text-decoration: none;
     font-family:sans-serif;
     color: indianred;
-    padding-left: 20px;
+    padding-left: 0px;
 }
 
 #contentblock h2 a:hover{ /*the hover part of the font, or changes the font style if the pointer hover over it*/
@@ -38,13 +45,13 @@ background-color:gainsboro;
     font-family:sans-serif;
     color: black;
     padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 0px;
 }
 
 #contentblock p { /*the paragraph of the row of the content*/
     font-family: sans-serif;
     color:black;
-    padding-left:20px;
+    padding-left:0px;
 }
 
 #contentblock2 { /*changes the row of the content with different background color*/
@@ -57,7 +64,7 @@ background-color:white;
     text-decoration: none;
     font-family:sans-serif;
     color: indianred;
-    padding-left: 20px;
+    padding-left: 0px;
 }
 
 #contentblock2 h2 a:hover{ /*the hover part of the font, or changes the font style if the pointer hover over it*/
@@ -65,20 +72,20 @@ background-color:white;
     font-family:sans-serif;
     color: black;
     padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 0px;
 }
 
 #contentblock2 p { /*the paragraph of the row of the content*/
     font-family: sans-serif;
     color:black;
-    padding-left:20px;
+    padding-left:0px;
 }
 
 #rightads { /*right side advertisement, or you can change it with navigation, etc.*/
-    height: 600px;
-    width: 160px;
+    height: 750px;
+    width: 300px;
     float:right;
-    margin-right: 5%;
     margin-top: 10px;
     background-color: gainsboro;
+    margin-left: 20%;
 }
