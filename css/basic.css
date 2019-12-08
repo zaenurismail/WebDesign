@@ -10,8 +10,8 @@ body { /*make default font sans-serif on the body, and changes the bg color whit
      }
 
 #header { /*make grey bar/menu section styling, can be modified into your liking, but reccomended width is 100%*/
-    background-color: gainsboro;
     color: black;
+    background-color: purple;
     height: 50px;
     width: 100%;
     }
@@ -29,20 +29,23 @@ body { /*make default font sans-serif on the body, and changes the bg color whit
     font-size: 20px;
     text-decoration: none;
     font-family:sans-serif;
-    color: indianred;
+    color:black;
     float:left;
     padding-top: 10px;
     padding-left: 20px;
 }
 #login { /*makes login button in the right corner, reccomended putting this login div inside the header div*/
-    font-size: 20px;
-    text-decoration: none;
-    font-family:sans-serif;
+    text-align: center;
+    width: 10%;
     color: black;
     float:right;
-    padding-top: 0px;
+    padding-top: 10px;
     padding-left: 20px;
-    margin-right: 10px;
+    padding-right: 20px;
+    border-radius: 10%;
+    border: solid black;
+    background-color: white;
+    height: 40px;
 }
 #logoheader { /*logo in header, fixed size is 50px and 150px, can be modified with 1:2 ratio*/
     height: 50px;
@@ -56,9 +59,10 @@ body { /*make default font sans-serif on the body, and changes the bg color whit
 #footer { /*makes a footer section*/
     height: 100px;
     width: 100%;
-    background-color:dimgrey;
     text-align: center;
-    clear: both;
     position: relative;
-
+    width: 100%;
+    color: white;
+    line-height: 100px;
+    background-color: purple;
 }
