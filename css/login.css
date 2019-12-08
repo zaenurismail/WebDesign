@@ -3,26 +3,28 @@ body /*changes the body, from font, bg color, positioning*/
 margin: 0;
 padding: 0;
 height: 100vh;
-background: #ff0;
+background: grey;
 font-family: Poopins, sans-serif;
 }
 .login /*makes the login box in the middle*/
 {
 text-align: center;
-width: 350px;
+width: 500px;
 box-sizing: border-box;
 padding: 40px;
 background: #fff;
 margin-left:38%;
 margin-bottom:10%;
 margin-top:5%;
+border: solid grey;
 }
 .login h2 /*changes the font inside the login frame*/
 {
 margin: 0 0 20px;
 padding: 0;
-font-size: 30px;
-text-transform: uppercase;
+font-size: 20px;
+text-transform: inherit;
+text-align: center;
 }
 .login .input-group /*changes the login frame positioning*/
 {
@@ -38,6 +40,8 @@ padding: 0 20px;
 box-sizing: border-box;
 font-size: 18px;
 outline: none;
+background-color: #00FFFF;
+border-radius: 30%;
 border: 1px solid #000;
 }
 .login .input-group span /*changes the styling of the font inside the input box*/
@@ -48,7 +52,7 @@ left: 20px;
 padding: 0;
 transition: 0.5s;
 pointer-events: none;
-background: #fff;
+background: #00FFFF;
 text-transform: uppercase;
 }
 .login .input-group input:focus ~ span /*changes the login box color/style*/
@@ -69,10 +73,11 @@ box-shadow: none;
 text-transform: uppercase;
 cursor: pointer;
 font-weight: 600;
+background-color: blue;
 }
 .login .input-group input[type="submit"]:hover /*makes the color of the login box different when a mouse hover above it*/
 {
-background: #ffc107;
+background-color: 
 }
 .login a /*changes the style and position of the hyperlink*/
 {
@@ -86,4 +91,8 @@ color: #666;
 {
 color: #262626;
 font-weight: 600;
+}
+.login p{
+	text-align: left;
+	font-size: 20px;
 }
