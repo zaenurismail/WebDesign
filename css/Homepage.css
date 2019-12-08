@@ -16,11 +16,11 @@
 #picture1 a:hover/*to make picture1 invisibile when click on it*/
 {
     height: 300px;
-    width: 40%;
+    width: 250px;
     background-color: indianred;
     float: left;
     margin-right: 1%;
-    opacity: 30%
+    opacity: 30%;
 }
 
 #picture2 a/*frame a picture, use width and height 100% in img to use it*/
@@ -28,13 +28,13 @@
     height: 300px;
     width: 58%;
     float: left;
-    margin-left: 1%;
+    margin-left:1%;
     background-color: indianred
 }
 #picture2 a:hover/*to make picture2 invisibile when click on it*/
 {
     height: 300px;
-    width: 58%;
+    width: 57%;
     float: left;
     margin-left: 1%;
     background-color: indianred;
@@ -74,7 +74,7 @@
 #titleA2 h2 a/*title text in the bottom of picture2*/
 {
     height: 50px;
-    width: 58%;
+    width: 57%;
     float: left;
     margin-left: 1%;
     text-align: center;
@@ -231,3 +231,4 @@
     background-color: grey;
     padding-top: 20px
 }
+
