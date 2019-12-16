@@ -34,19 +34,19 @@ body { /*make default font sans-serif on the body, and changes the bg color whit
     padding-top: 10px;
     padding-left: 20px;
 }
-#login { /*makes login button in the right corner, reccomended putting this login div inside the header div*/
+#header h1 a { /*makes login button in the right corner, reccomended putting this login div inside the header div*/
     text-align: center;
-    width: 10%;
+    width: 5%;
     color: black;
-    float:right;
+    float: right;
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 10%;
-    border: solid black;
+    border-radius: 50%;
     background-color: white;
     height: 40px;
 }
+
 #logoheader { /*logo in header, fixed size is 50px and 150px, can be modified with 1:2 ratio*/
     height: 50px;
     width: 150px;
@@ -65,4 +65,82 @@ body { /*make default font sans-serif on the body, and changes the bg color whit
     color: white;
     line-height: 100px;
     background-color: purple;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 415px){
+
+* {
+    padding: 0;
+    margin: 0
+  }
+
+body { /*make default font sans-serif on the body, and changes the bg color white by default, reccomended font size is 12px*/
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 12px
+     }
+
+#header { /*make grey bar/menu section styling, can be modified into your liking, but reccomended width is 100%*/
+    color: black;
+    background-color: purple;
+    height: 35px;
+    width: 100%;
+    }
+
+#header h3 a { /*this style to make menu in the header, reccomended using h3 rather than other formatting elements, can be added up to 10 menu*/
+    font-size: 10px;
+    text-decoration: none;
+    font-family:sans-serif;
+    color: black;
+    float:left;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#header h3 a:hover { /*turns the menu in header red when you hover it, can be modified to your liking*/
+    font-size: 20px;
+    text-decoration: none;
+    font-family:sans-serif;
+    color:black;
+    float:left;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#header h1 a { /*makes login button in the right corner, reccomended putting this login div inside the header div*/
+    text-align: center;
+    width: 5%;
+    color: black;
+    float: right;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 11px;
+    background-color: white;
+    height:20px;
+}
+#logoheader { /*logo in header, fixed size is 50px and 150px, can be modified with 1:2 ratio*/
+    height: 50px;
+    width: 150px;
+    float:left;
+}
+#logofooter { /*logo in footer, not necessary to put into the footer, it's ratio is 1:2*/
+    height: 100px;
+    width: 200px;
+}
+#footer { /*makes a footer section*/
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    color: white;
+    font-size: 10px;
+    background-color: purple;
+}
+
 }
