@@ -1,4 +1,4 @@
-.header1 h1{ 
+.header h1{ 
 	width: 100%;
 	height: 150px;
 	color: white;
@@ -88,4 +88,115 @@ background-color:white;
     margin-top: 10px;
     background-color: gainsboro;
     margin-left: 20%;
+}
+
+
+
+
+
+
+@media (max-width: 415px){
+
+
+.header h1{ 
+    font-size: : 36px;
+    width: 450px;
+    height: 150px;
+    color: white;
+    line-height: 150px;
+    background-color: purple;
+}
+
+#wrap { /*background part, made a frame for the whole content*/
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 4px;
+    margin-bottom: 23px;
+    padding: 0px;
+    width: 100%;
+}
+
+.contentheader { /*makes a section to make the header part of the content*/
+width: 250px;
+height: 23px;
+margin-left: 1%;
+background-color:indianred;
+}
+
+.contentheader h1 { /*changes the font located in the header part of the content*/
+    font-family:sans-serif;
+    color: black;
+    font-size: 11px;
+    padding-bottom: 3px;
+    margin-top: 3px;
+}
+
+#contentblock { /*changes the row of the content*/
+width: 250px;
+margin-left: 1%;
+height: 27px;
+background-color:gainsboro;
+}
+
+#contentblock h2 a { /*font inside the row of the content*/
+    text-decoration: none;
+    font-size: 11px;
+    font-family:sans-serif;
+    color: indianred;
+    padding-left: 0px;
+}
+
+#contentblock h2 a:hover{ /*the hover part of the font, or changes the font style if the pointer hover over it*/
+    text-decoration: none;
+    font-family:sans-serif;
+    color: black;
+    padding-top: 10px;
+    padding-left: 0px;
+}
+
+#contentblock p { /*the paragraph of the row of the content*/
+    font-family: sans-serif;
+    font-size: 6px;
+    color:black;
+    padding-left:0px;
+}
+
+#contentblock2 { /*changes the row of the content with different background color*/
+width: 250px;
+margin-left: 1%;
+background-color:white;
+}
+
+#contentblock2 h2 a { /*font inside the row of the content*/
+    text-decoration: none;
+    font-family:sans-serif;
+    color: indianred;
+    font-size: 11px;
+    padding-left: 0px;
+}
+
+#contentblock2 h2 a:hover{ /*the hover part of the font, or changes the font style if the pointer hover over it*/
+    text-decoration: none;
+    font-family:sans-serif;
+    color: black;
+    padding-top: 10px;
+    padding-left: 0px;
+}
+
+#contentblock2 p { /*the paragraph of the row of the content*/
+    font-family: sans-serif;
+    color:black;
+    font-size: 6px;
+    padding-left:0px;
+}
+
+#rightads { /*right side advertisement, or you can change it with navigation, etc.*/
+    height: 550px;
+    width: 140px;
+    float:right;
+    margin-top: 3px;
+    background-color: gainsboro;
+    margin-left: 0%;
+}
+
 }
